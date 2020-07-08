@@ -43,7 +43,6 @@ def generate_graph(n: int) -> dict:
     return matrix_to_list(matrix)
 
 
-
 n = int(input("Введите количество вершин: \t"))
 start = int(input("Введите стартовую вершину поиска: \t"))
 end = int(input("Введите конечную вершину поиска: \t"))

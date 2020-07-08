@@ -15,7 +15,7 @@ def matrix_of_friends(N):
     for index, item in enumerate(matrix[:]):
         for inner, j in enumerate(item[:]):
             if index == inner:
-                matrix[index][inner] = 1
+                matrix[index][inner] = 0
 
     return matrix
 

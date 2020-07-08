@@ -43,6 +43,7 @@ def dijkstra(graph, start):
 
     return [i for i in enumerate(cost)]
 
+
 s = input("От какой вершины идти: \t")
 if s.isdigit():
     s = int(s)
